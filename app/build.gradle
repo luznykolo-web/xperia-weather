@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'pl.luznykolo.prestigioweather'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "pl.luznykolo.sonyxperiaz2weather"
+        minSdk 19
+        targetSdk 28
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+
+dependencies {
+    implementation "org.conscrypt:conscrypt-android:2.5.3"
+}
